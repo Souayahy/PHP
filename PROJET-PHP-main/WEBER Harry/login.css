@@ -1,0 +1,38 @@
+@font-face {
+    font-family: Bebas;
+    src: url(Bebas.otf);
+}
+
+body {
+    background-image: url(admin.jpg);;
+}
+
+form {
+    text-align: center;
+    margin: auto;
+    margin-top: 15%;
+    width: 300px;
+    font-family: Bebas;
+    color: white;
+}
+
+input {
+    border-radius: 10px;
+    width: 200px;
+    height: 30px;
+}
+
+input::placeholder {
+    font-family: Bebas;
+    text-align: center;
+}
+
+.button {
+    margin-top: 10px;
+    font-family: Bebas;
+    width: 100px;
+}
+
+h1 {
+    font-size: 50px;
+}
